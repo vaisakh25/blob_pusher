@@ -1,0 +1,6 @@
+input_params:
+  - stream_url: [URL of the video stream]
+  - account_name: [Azure Storage account name]
+  - account_key: [Azure Storage account key]
+  - container_name_template: [Template for the container name, e.g., "frames-%Y-%m-%d-%H"]
+  - blob_name_template: [Template for the blob name, e.g., "frame-%Y-%m-%d-%H-%M-%S-%f.jpg"]
